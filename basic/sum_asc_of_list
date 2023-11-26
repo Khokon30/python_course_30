@@ -1,0 +1,14 @@
+
+list = [ 'abcdef', 'GHijklM']
+
+list_2 = []
+
+for i in list:
+    sum = 0 
+    for k in i:
+        ascii = ord(k)
+        sum = sum + ascii
+    list_2.append(ascii)
+
+print(list_2)
+print(sum)    
